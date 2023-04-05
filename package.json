@@ -1,0 +1,13 @@
+{
+  "name": "my-block",
+  "private": true,
+  "author": "Maksym",
+  "devDependencies": {
+    "@wordpress/components": "^9.5.0",
+    "@wordpress/scripts": "^9.0.0"
+  },
+  "scripts": {
+    "watch": "wp-scripts start jsx/chatgpt.js --output-path=js",
+    "build": "wp-scripts build jsx/chatgpt.js --output-path=js"
+  }
+}
